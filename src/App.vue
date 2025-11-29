@@ -3,8 +3,10 @@
 </script>
 
 <template>
-  <div class="min-h-full bg-gray-50"></div>
-  <router-view></router-view>
+  <div class="min-h-full bg-gray-50">
+
+    <router-view></router-view>
+  </div>
 </template>
 
 <style scoped>
